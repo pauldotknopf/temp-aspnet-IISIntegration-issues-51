@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{283860BD-0129-409F-9A60-52BA8F94F0DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4952FFC2-61FF-447F-98F7-4141619D6038}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HttpConnectionTest", "src\HttpConnectionTest\HttpConnectionTest.xproj", "{AC28DCF8-5349-49AC-A658-6789096CCD41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC28DCF8-5349-49AC-A658-6789096CCD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC28DCF8-5349-49AC-A658-6789096CCD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC28DCF8-5349-49AC-A658-6789096CCD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC28DCF8-5349-49AC-A658-6789096CCD41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC28DCF8-5349-49AC-A658-6789096CCD41} = {283860BD-0129-409F-9A60-52BA8F94F0DE}
+	EndGlobalSection
+EndGlobal
